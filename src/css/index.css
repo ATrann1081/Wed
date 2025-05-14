@@ -1,3 +1,7 @@
+@import "./header.css";
+@import "./Login.css";
+@import "./Signup.css";
+
 :root {
   --bodytext-12-bold-font-family: "Roboto", Helvetica;
   --bodytext-12-bold-font-size: 12px;
@@ -114,4 +118,10 @@
   --h6-font-weight: 600;
   --h6-letter-spacing: 0px;
   --h6-line-height: 129.99999523162842%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }

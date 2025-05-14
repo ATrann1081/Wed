@@ -1,7 +1,5 @@
 // Header.tsx
-import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./css/Header.css";
 
 export const Header = () => {
   const navigate = useNavigate();
@@ -9,7 +7,7 @@ export const Header = () => {
   return (
     <div className="header-container">
       <div className="nav-links">
-        <div className="text-wrapper-2" onClick={() => navigate("/Home")}>
+        <div className="text-wrapper-2" onClick={() => navigate("/")}>
           Home
         </div>
         <div className="text-wrapper" onClick={() => navigate("/Hotel")}>
@@ -24,13 +22,13 @@ export const Header = () => {
         <div className="button-group">
           <button
             className="header-login-btn"
-            onClick={() => navigate("/Login")}
+            onClick={() => navigate("/signIn")}
           >
             Sign in
           </button>
           <button
             className="register-btn"
-            onClick={() => navigate("/register")}
+            onClick={() => navigate("/signUp")}
           >
             Register
           </button>

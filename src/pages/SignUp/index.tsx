@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Header from "./header";
-import "./css/Signup.css";
+import Header from "../../components/globals/header";
 
-const Signup: React.FC = () => {
+const SignUp: React.FC = () => {
   const navigate = useNavigate();
 
   // Khai báo các state cho form
@@ -109,4 +108,4 @@ const Signup: React.FC = () => {
   );
 };
 
-export default Signup;
+export default SignUp;

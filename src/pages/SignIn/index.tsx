@@ -1,8 +1,7 @@
 import React from "react";
-import Header from "./header";
-import "./css/Login.css";
+import Header from "../../components/globals/header";
 
-const Login: React.FC = () => {
+const SignIn: React.FC = () => {
   return (
     <div>
       <Header />
@@ -56,4 +55,4 @@ const Login: React.FC = () => {
   );
 };
 
-export default Login;
+export default SignIn;
